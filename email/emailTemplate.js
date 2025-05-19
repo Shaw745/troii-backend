@@ -1,4 +1,4 @@
-const createWelcomeTemplates = (fullName, clientUrl) => {
+const createWelcomeTemplate = (fullName, clientUrl) => {
   return `<!DOCTYPE html>
     <html lang="en">
       <head>
@@ -82,4 +82,4 @@ const createWelcomeTemplates = (fullName, clientUrl) => {
 
 const createResetTemplate = () => {};
 
-module.exports = { createWelcomeTemplates, createResetTemplate };
+module.exports = { createWelcomeTemplate, createResetTemplate };
