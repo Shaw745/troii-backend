@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 
 const {
-  createWelcomeTemplate,
+  createWelcomeTemplates,
   createResetTemplate,
 } = require("./emailTemplate");
 
@@ -13,6 +13,7 @@ const sendMail = async ({ to, subject, html }) => {
       pass: process.env.PASSWORD,
     },
   });
+
   try {
     const info = await transporter.sendMail({
       from: process.env.EMAIL,
@@ -20,7 +21,6 @@ const sendMail = async ({ to, subject, html }) => {
       subject: subject,
       html: html,
     });
-    console.log(`email sent ${info.response}`);
   } catch (error) {
     console.log(error);
   }
@@ -28,9 +28,15 @@ const sendMail = async ({ to, subject, html }) => {
 
 const sendWelcomeEmail = ({ fullName, clientUrl, email }) => {
   const subject = "Welcome to Torii Gates";
-  const html = createWelcomeTemplate(fullName, clientUrl);
-
+  const html = createWelcomeTemplates(fullName, clientUrl);
   sendMail({ to: email, subject, html });
 };
 
-module.exports = { sendWelcomeEmail };
+
+const sendResetEmail = ({ fullName, clientUrl, email }) => {
+  const subject = "Password Reset";
+  const html = createResetTemplate(fullName, clientUrl);
+  sendMail({ to: email, subject, html });
+};
+
+module.exports = { sendWelcomeEmail, sendResetEmail };
