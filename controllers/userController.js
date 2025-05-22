@@ -119,7 +119,7 @@ const handleLogin = async (req, res) => {
 
     //generate a token (validity, period)
     const token = jwt.sign(
-      { email: user.email, role: user.role },
+      { email: user.email, role: user.role, userId: user._id },
       process.env.JWT_SECRET,
       { expiresIn: "3 days" }
     );
@@ -133,6 +133,7 @@ const handleLogin = async (req, res) => {
         email: user.email,
         profilePicture: user.profilePicture,
         role: user.role,
+        phoneNumber: user.phoneNumber,
       },
     });
   } catch (error) {
@@ -193,7 +194,7 @@ const handleForgotPassword = async (req, res) => {
 
     const token = generateToken();
     user.resetPasswordToken = token;
-    user.resetPasswordExpires  = Date.now() + 60 * 60 * 1000; // 1hr
+    user.resetPasswordTokenExpires = Date.now() + 60 * 60 * 1000; // 1hr
     await user.save();
 
     //send the email
@@ -222,7 +223,7 @@ const handleResetPassword = async (req, res) => {
   try {
     const user = await USER.findOne({
       resetPasswordToken: token,
-      resetPasswordExpires: { $gt: Date.now() },
+      resetPasswordTokenExpires: { $gt: Date.now() },
     });
     if (!user) {
       return res
@@ -234,7 +235,7 @@ const handleResetPassword = async (req, res) => {
 
     user.password = hashedPassword;
     user.resetPasswordToken = undefined;
-    user.resetPasswordExpires = undefined;
+    user.resetPasswordTokenExpires = undefined;
 
     await user.save();
 
@@ -246,7 +247,16 @@ const handleResetPassword = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+const handleGetUser = async (req, res) => {
+  res.send("get user");
+};
+
+const handleUpdateUser = async (req, res) => {
+  res.send("change user");
+};
 //Exporting the functions
+
 module.exports = {
   handleRegister,
   handleVerifyEmail,
@@ -254,4 +264,6 @@ module.exports = {
   resendVerificationEmail,
   handleForgotPassword,
   handleResetPassword,
+  handleUpdateUser,
+  handleGetUser,
 };
