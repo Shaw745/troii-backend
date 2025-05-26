@@ -3,11 +3,16 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
+const cloudinary = require("cloudinary").v2;
+const fileUpload = require("express-fileupload");
 const port = process.env.PORT || 3000;
 const userRouter = require("./routes/userRouter");
 
 app.use(express.json());
 app.use(cors());
+app.use(
+  fileUpload({ useTempFiles: true, limits: { fileSize: 10 * 1024 * 1024 } })
+);
 
 app.get("/", (req, res) => {
   res.status(200).json({
