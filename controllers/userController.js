@@ -249,11 +249,46 @@ const handleResetPassword = async (req, res) => {
 };
 
 const handleGetUser = async (req, res) => {
-  res.send("get user");
+  const { userId } = req.user;
+  try {
+    const user = await USER.findById(userId);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    res.status(200).json({
+      success: true,
+      user,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: error.message });
+  }
 };
 
 const handleUpdateUser = async (req, res) => {
-  res.send("change user");
+  const { fullName, phoneNumber } = req.body;
+  const { userId } = req.user;
+  if (!fullName || !phoneNumber) {
+    return res
+      .status(400)
+      .json({ message: "Full name and phone number are required" });
+  }
+  try {
+    const user = await USER.findById(userId);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+    //update the user
+    user.fullName = fullName;
+    user.phoneNumber = phoneNumber;
+    await user.save();
+    res
+      .status(200)
+      .json({ success: true, message: "User updated successfully", user });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: error.message });
+  }
 };
 //Exporting the functions
 
