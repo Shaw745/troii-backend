@@ -281,18 +281,15 @@ const handleUpdateUser = async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
     // upload image from cloudinary
-    if (req.files && req.files.profilePicture) {
+     if(req.files && req.files.profilePicture) {
       const profilePicture = req.files.profilePicture;
-      const result = await cloudinary.uploader.upload(
-        profilePicture.tempFilePath,
-        {
-          folder: "toriigate/profilePictures",
-          use_filename: true,
-          unique_filename: false,
-        }
-      );
+      const result = await cloudinary.uploader.upload(profilePicture.tempFilePath, {
+        folder: "toriigate/profilePictures",
+        use_filename: true,
+        unique_filename: false,
+      });
       user.profilePicture = result.secure_url;
-    }
+    }
 
     //update the user
     user.fullName = fullName;
