@@ -7,6 +7,7 @@ const cloudinary = require("cloudinary").v2;
 const fileUpload = require("express-fileupload");
 const port = process.env.PORT || 3000;
 const userRouter = require("./routes/userRouter");
+const propertyRouter = require("./routes/propertyRouter");
 
 app.use(express.json());
 app.use(cors());
@@ -22,6 +23,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/auth", userRouter);
+app.use("/api", propertyRouter);
 
 app.use((req, res) => {
   res.status(404).json({
