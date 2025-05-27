@@ -12,8 +12,37 @@ const updatePropertyAvailability = async (req, res) => {
   res.send("update property availability");
 };
 
+//find()
 const getAllProperties = async (req, res) => {
-  res.send("get all properties");
+  const { page = 1, location } = req.query;
+  const limit = 12;
+  const skip = (page - 1) * limit;
+
+  try {
+    const filter = {
+      availability: "available",
+    };
+    if (location) {
+      filter.location = { $regex: location, $options: "i", }; // case-insensitive search
+    }
+    const properties = await PROPERTY.find(filter)
+      .sort("-createdAt")
+      .skip(skip)
+      .limit(limit);
+
+    const totalProperties = await PROPERTY.countDocuments(filter);
+    const totalPages = Math.ceil(totalProperties / limit);
+
+    res.status(200).json({
+      num: properties.length,
+      totalPages,
+      currentPage: parseInt(page),
+      properties,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: error.message });
+  }
 };
 
 const getAProperty = async (req, res) => {

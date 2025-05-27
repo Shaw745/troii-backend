@@ -15,6 +15,12 @@ app.use(
   fileUpload({ useTempFiles: true, limits: { fileSize: 10 * 1024 * 1024 } })
 );
 
+cloudinary.config({
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
+});
+
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
@@ -23,7 +29,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/auth", userRouter);
-app.use("/api", propertyRouter);
+app.use("/api/property", propertyRouter);
 
 app.use((req, res) => {
   res.status(404).json({

@@ -9,9 +9,14 @@
     "kitchen": 1,
     "toilet": 2,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg", "img3.jpg"],
+    "images": [
+      "https://photos.zillowstatic.com/fp/e93faa6e089b83d6c06a2e3f43f046cf-cc_ft_960.webp",
+      "https://photos.zillowstatic.com/fp/09f449be6a7a3959af67dbde99cd9b05-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/e2d598915ea12f5ffc0ce62a223b2bba-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/42d0b7ee3a322f70cd7adb88064a5347-cc_ft_576.webp"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd123"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Affordable Self Contain in Yaba",
@@ -23,9 +28,15 @@
     "kitchen": 1,
     "toilet": 1,
     "paymentPeriod": "monthly",
-    "images": ["img1.jpg"],
+    "images": [
+      "https://photos.zillowstatic.com/fp/da9eb79a2859163bac80aa9bdaaa2a15-cc_ft_960.webp",
+      "https://photos.zillowstatic.com/fp/cc68e8a43d81e9d0cf3703bdc4a69bc9-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/2518e8a53e849f3ceb5e84c786219264-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/bbebd84f0ea1afbab3137fec17adf810-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/c21a4e0a42609e9e998cac20a33c2b99-cc_ft_576.webp"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd123"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "3 Bedroom Duplex in Wuse",
@@ -37,9 +48,12 @@
     "kitchen": 1,
     "toilet": 3,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [
+      "https://photos.zillowstatic.com/fp/ad8037fb1b227941f2ae9087715ec562-cc_ft_960.webp",
+      "https://photos.zillowstatic.com/fp/1742ac5b8db194110271d0b746c28529-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/f823c0f942fc97fac13360db88cfcd70-cc_ft_576.webp"],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd124"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Studio Apartment in Surulere",
@@ -51,9 +65,13 @@
     "kitchen": 0,
     "toilet": 1,
     "paymentPeriod": "monthly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [
+      "https://photos.zillowstatic.com/fp/1c754ecb6cc31ad5b0c94d8a5469c9f9-cc_ft_960.webp",
+      "https://photos.zillowstatic.com/fp/3af84a97c2542e66e7924e3fabe90024-cc_ft_576.webp",
+      "https://photos.zillowstatic.com/fp/438f8f01e1d5edd28d0989613dd4a95e-cc_ft_576.webp"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd125"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "4 Bedroom Duplex in Port Harcourt",
@@ -65,9 +83,13 @@
     "kitchen": 1,
     "toilet": 4,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"],
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1722048810826-751afbcc98c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW50ZXJpb3JzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1615875474908-f403116f5287?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW50ZXJpb3JzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW50ZXJpb3JzfGVufDB8fDB8fHww"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd126"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Mini Flat in Ajah",
@@ -79,9 +101,13 @@
     "kitchen": 1,
     "toilet": 1,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg"],
+    "images": [
+      "https://images.unsplash.com/photo-1615874694520-474822394e73?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW50ZXJpb3JzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1631724604275-af3bbb5c904d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGludGVyaW9yc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1633110187937-6e3b2f36dfca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGludGVyaW9yc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd127"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "2 Bedroom Flat in Gwarinpa",
@@ -93,9 +119,9 @@
     "kitchen": 1,
     "toilet": 2,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [" https://photos.zillowstatic.com/fp/c2fa6f83e68d2998432b96086b83c9f9-cc_ft_960.webp", "https://photos.zillowstatic.com/fp/26fa8417f30c97d11163beae8c58e52a-cc_ft_576.webp", "https://photos.zillowstatic.com/fp/2f1960b1faabef96e2d690ff18a4034e-cc_ft_576.webp", "https://photos.zillowstatic.com/fp/59d07bf877adc3bf1995ca0a725f732b-cc_ft_576.webp", "https://photos.zillowstatic.com/fp/0eef08d701a67efd226a67b2aedd9e4f-cc_ft_576.webp"],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd128"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Self Contain in Ikorodu",
@@ -107,9 +133,15 @@
     "kitchen": 1,
     "toilet": 1,
     "paymentPeriod": "monthly",
-    "images": ["img1.jpg"],
+    "images": [
+      "https://media.istockphoto.com/id/1319269543/photo/new-homes-on-a-quiet-street-in-raleigh-nc.jpg?s=612x612&w=0&k=20&c=qaRMP-xgYqFAXR9aTpiG0dtkyqPhJiTAovvxyG1AxvM=",
+      "https://hips.hearstapps.com/hmg-prod/images/118665-axis-mundi-portfolio-interiors-bath-1568151201.jpg?crop=1.00xw:0.891xh;0,0.109xh&resize=980:*",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJiPzYQt5DJgMimw7lo-Q9LIrYN8ca8i-7V22vo5upSbeK85J-xnE8HHNEbQ_yoR48NdI&usqp=CAU",
+      "https://www.carpentry.sg/wp-content/uploads/2023/04/Jalan-Greja_Website_08.jpg",
+      "https://st.hzcdn.com/simgs/pictures/comedores/felanitx-renovation-munarq-img~3d6144c606324b24_4-6841-1-b389bfe.jpg"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd129"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "3 Bedroom Apartment in Asaba",
@@ -121,9 +153,13 @@
     "kitchen": 1,
     "toilet": 3,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg", "img3.jpg"],
+    "images": [
+      "https://images.unsplash.com/photo-1616593871468-2a9452218369?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGludGVyaW9yc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1616046330109-09ee9e34be48?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGludGVyaW9yc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1682716387370-b263d655d108?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGludGVyaW9yc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd130"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Mini Flat in Festac",
@@ -135,9 +171,15 @@
     "kitchen": 1,
     "toilet": 1,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg"],
+    "images": [
+      "https://static.vecteezy.com/system/resources/thumbnails/054/902/709/small_2x/stunning-two-story-american-house-design-photo.jpeg",
+      "https://walkinshowersmobile.com/wp-content/uploads/2024/06/how-big-are-walk-in-showers-13.jpg",
+      "https://www.drewandjonathan.com/wp-content/uploads/2024/04/pbfh-season7-jasmin-nick.jpg",
+      "https://evolveartisanal.com/wp-content/uploads/2021/07/1_The-Wooden-Rhapsody-Modern-Bedroom-Interior-Design.jpg",
+      "https://st.hzcdn.com/simgs/pictures/dining-rooms/parkgate-house-banda-property-img~e5c1aad5074319a5_14-4895-1-8aa3459.jpg"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd131"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "2 Bedroom Flat in Owerri",
@@ -149,9 +191,15 @@
     "kitchen": 1,
     "toilet": 2,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [
+      "https://media.istockphoto.com/id/470265553/photo/two-story-american-house-with-white-column-porch.jpg?s=612x612&w=0&k=20&c=7KqigJ5egBYQBYUc_UVhIVsuXyruCuK45wFrVEfnlTk=",
+      "https://www.housedigest.com/img/gallery/the-shower-detail-that-adds-drama-to-a-bathroom-designed-by-the-property-brothers/intro-1688758561.jpg",
+      "https://photos.zillowstatic.com/fp/ce65ffeee5a8ecddecda646bde02ee2a-cc_ft_960.jpg",
+      "https://thearchitectsdiary.com/wp-content/uploads/2024/09/Interior-Design-Styles-06.jpeg",
+      "https://st.hzcdn.com/simgs/pictures/dining-rooms/property-brothers-savoy-house-lighting-img~5e91810205b79a23_4-9583-1-6772adf.jpg"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd132"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Single Room in Mushin",
@@ -163,9 +211,15 @@
     "kitchen": 0,
     "toilet": 1,
     "paymentPeriod": "monthly",
-    "images": [],
+    "images": [
+      "https://media.istockphoto.com/id/1319269543/photo/new-homes-on-a-quiet-street-in-raleigh-nc.jpg?s=612x612&w=0&k=20&c=qaRMP-xgYqFAXR9aTpiG0dtkyqPhJiTAovvxyG1AxvM=",
+      "https://hips.hearstapps.com/hmg-prod/images/118665-axis-mundi-portfolio-interiors-bath-1568151201.jpg?crop=1.00xw:0.891xh;0,0.109xh&resize=980:*",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJiPzYQt5DJgMimw7lo-Q9LIrYN8ca8i-7V22vo5upSbeK85J-xnE8HHNEbQ_yoR48NdI&usqp=CAU",
+      "https://www.carpentry.sg/wp-content/uploads/2023/04/Jalan-Greja_Website_08.jpg",
+      "https://st.hzcdn.com/simgs/pictures/comedores/felanitx-renovation-munarq-img~3d6144c606324b24_4-6841-1-b389bfe.jpg"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd133"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "4 Bedroom Duplex in Enugu",
@@ -177,9 +231,13 @@
     "kitchen": 1,
     "toilet": 4,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg"],
+    "images": [
+      "https://media.istockphoto.com/id/1329150965/photo/holiday-in-poland-colorful-swedish-style-cabin-houses-in-a-summer-day.webp?a=1&b=1&s=612x612&w=0&k=20&c=6nlCIephPmLWbEecDoVhiA2amyhZ0wZMUt8FGhvcEWQ=",
+      "https://images.unsplash.com/photo-1711114378455-b1f479d94a19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1bmdhbG93fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1677735108001-cd9b99efd5ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1bmdhbG93fGVufDB8fDB8fHww"
+    ],
     "availability": "rented",
-    "landlord": "60b8bdfb1c9d440000cfd134"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Luxury 3 Bedroom Flat in Maitama",
@@ -192,15 +250,12 @@
     "toilet": 3,
     "paymentPeriod": "yearly",
     "images": [
-      "img1.jpg",
-      "img2.jpg",
-      "img3.jpg",
-      "img4.jpg",
-      "img5.jpg",
-      "img6.jpg"
+      "https://media.istockphoto.com/id/1060806178/photo/a-row-of-new-townhouses-or-condominiums.webp?a=1&b=1&s=612x612&w=0&k=20&c=27_m4iGPEvyTgPXsfG8WAEudr7xdMOWlyTsGN1MUAUY=",
+      "https://images.unsplash.com/photo-1689214718217-1beaebb918bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHVwbGV4fGVufDB8fDB8fHww",
+      "https://media.istockphoto.com/id/1218368791/photo/3d-rendering-interior-house-modern-open-living-space-with-kitchen-loft-style-duplex-apartment.webp?a=1&b=1&s=612x612&w=0&k=20&c=CReSm2_t6ncp6B_D89a7jOgzsMBxlnoePKFM_MHh3sU="
     ],
     "availability": "rented",
-    "landlord": "60b8bdfb1c9d440000cfd135"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "2 Bedroom Flat in Ilorin",
@@ -212,9 +267,16 @@
     "kitchen": 1,
     "toilet": 2,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [
+      "https://img.freepik.com/free-photo/analog-city-landscape-with-buildings_23-2149661424.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/home-with-driveway-that-has-driveway-that-has-garage-door-that-says-welcome-home_1291376-1855.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/elegant-suburban-red-brick-home-with-landscaped-lawn-eyelevel-view_501731-16363.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/new-residential-house-with-concrete-pathway-front-yard_769578-3249.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/luxury-residential-house-with-concrete-pathway-green-lawn-front_769578-2405.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd136"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Room Self Contain in Agege",
@@ -226,9 +288,13 @@
     "kitchen": 1,
     "toilet": 1,
     "paymentPeriod": "monthly",
-    "images": ["img1.jpg"],
+    "images": [
+      "https://img.freepik.com/premium-photo/luxurious-suburban-home-exterior-with-modern-architecture-expansive-lawn-sunset-sky_875722-42996.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/free-photo/luxury-house-with-swimming-pool-garden-generated-by-ai_188544-10276.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/two-story-suburban-house_332679-26120.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740"
+    ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd137"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "1 Bedroom Flat in Sango Ota",
@@ -242,7 +308,7 @@
     "paymentPeriod": "yearly",
     "images": ["img1.jpg"],
     "availability": "rented",
-    "landlord": "60b8bdfb1c9d440000cfd138"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Luxury Penthouse in Victoria Island",
@@ -263,7 +329,7 @@
       "img6.jpg"
     ],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd139"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Shared Apartment in Akure",
@@ -277,7 +343,7 @@
     "paymentPeriod": "monthly",
     "images": ["img1.jpg"],
     "availability": "available",
-    "landlord": "60b8bdfb1c9d440000cfd140"
+    "landlord": "682f06b7eabb6f9548507477"
   },
   {
     "title": "Serviced Flat in Jos",
@@ -289,8 +355,12 @@
     "kitchen": 1,
     "toilet": 2,
     "paymentPeriod": "yearly",
-    "images": ["img1.jpg", "img2.jpg"],
+    "images": [
+      "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/premium-photo/illustration-living-room-interior_252025-155333.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740",
+      "https://img.freepik.com/free-photo/yellow-armchair-living-room-with-copy-space_43614-940.jpg?ga=GA1.1.1071869672.1747165893&semt=ais_items_boosted&w=740"
+    ],
     "availability": "rented",
-    "landlord": "60b8bdfb1c9d440000cfd141"
+    "landlord": "682f06b7eabb6f9548507477"
   }
 ]

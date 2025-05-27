@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const propertySchema = new mongoose.Schema(
   {
-    propertyName: {
+    title: {
       type: String,
       required: true,
       maxlength: 100,
@@ -25,12 +25,12 @@ const propertySchema = new mongoose.Schema(
       required: true,
     },
 
-    kitchens: {
+    kitchen: {
       type: Number,
       required: true,
       min: 0,
     },
-    toilets: {
+    toilet: {
       type: Number,
       required: true,
       min: 0,

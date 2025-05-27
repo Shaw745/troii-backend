@@ -10,29 +10,24 @@ const {
 
 const { isLoggedIn, requirePermissions } = require("../middleware/auth");
 
-router.post(
-  "/property",
-  isLoggedIn,
-  requirePermissions("landlord"),
-  createProperty
-);
+router.post("/", isLoggedIn, requirePermissions("landlord"), createProperty);
 
 router.get(
-  "/property/landlord",
+  "/landlord",
   isLoggedIn,
   requirePermissions("landlord"),
   getLandlordsProperties
 );
 
 router.patch(
-  "/property/landlord/:propertyId",
+  "/landlord/:propertyId",
   isLoggedIn,
   requirePermissions("landlord"),
   updatePropertyAvailability
 );
 
 //tenants
-router.get("/property", isLoggedIn, getAllProperties);
-router.get("/property/:propertyId", isLoggedIn, getAProperty);
+router.get("/", isLoggedIn, getAllProperties);
+router.get("/:propertyId", isLoggedIn, getAProperty);
 
 module.exports = router;
