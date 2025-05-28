@@ -24,12 +24,13 @@ const getLandlordsProperties = async (req, res) => {
     const totalPages = Math.ceil(total / limit);
 
     res.status(200).json({
-      avaiableProperties,
+      availableProperties,
       rentedProperties,
       properties,
       currentPage: parseInt(page),
       totalPages,
       properties,
+      total
     });
   } catch (error) {
     console.error(error);
