@@ -15,7 +15,7 @@ const getLandlordsProperties = async (req, res) => {
       .skip(skip)
       .limit(limit);
 
-    const [total, avaiableProperties, rentedProperties] = await Promise.all([
+    const [total, availableProperties, rentedProperties] = await Promise.all([
       PROPERTY.countDocuments({ landlord: userId }),
       PROPERTY.countDocuments({ landlord: userId, availability: "available" }),
       PROPERTY.countDocuments({ landlord: userId, availability: "rented" }),
@@ -30,7 +30,7 @@ const getLandlordsProperties = async (req, res) => {
       currentPage: parseInt(page),
       totalPages,
       properties,
-      total
+      total,
     });
   } catch (error) {
     console.error(error);
