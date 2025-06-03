@@ -33,6 +33,7 @@ router.delete(
   requirePermissions("landlord"),
   deleteProperty
 );
+//delete
 
 //tenants
 router.get("/", isLoggedIn, getAllProperties);
